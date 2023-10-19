@@ -20,6 +20,11 @@ a{
     right: 0;
 }
 
+.grid-container{
+    max-width: 980px;
+    margin: auto;
+}
+
 header{
     width: 100%;
     height: 140px;
@@ -201,6 +206,57 @@ nav .nav-logo-container{
 .blogs-posts-container .post-container img{
     width: 100%;
 }
+
+.blogpost-img-container{
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img{
+    width: 100%;
+}
+
+.blogpost-main-container{
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1{
+    font-size: 35px;
+}
+
+.contact-main-container img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: gray;
+    height: 180px;
+}
+
+.contact-main-container .contact-left, .contact-main-container .contact-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.contact-right-container, .contact-left-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.contact-left a, .contact-right a{
+    text-decoration:underline;
+}
+
 
 footer{
     width: 100%;
