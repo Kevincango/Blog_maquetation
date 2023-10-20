@@ -148,14 +148,16 @@ nav .nav-logo-container{
 }
 
 .blogs-news-img-container{
+    margin-top: 30px;
     grid-column: 1;
 }
 
 .blogs-news-img-container img{
-    width: 85%;
+    width: 65%;
 }
 
 .blogs-news-info-container{
+    margin-top: 50px;
     grid-column: 2;
 }
 
